@@ -7,5 +7,4 @@
 <li> 3) vá ate o endereço do projeto e na pasta "..\BuscapeTeste\target\" encontrará nosso jar (BuscapeTeste-0.0.1-SNAPSHOT.jar) </li>
 <li> 4) Exemplo de execução: <b>java -jar ..\BuscapeTeste\target\BuscapeTeste-0.0.1-SNAPSHOT.jar [commands]</b> </li>
 <li> 4) Na linha de comando execute: <b>java -jar ..\BuscapeTeste\target\BuscapeTeste-0.0.1-SNAPSHOT.jar RMMLLMMMDDLL</b> </li>
-Obs: Sem os colchetes "[" e "]"
 </ul>
