@@ -13,18 +13,15 @@ import com.gamaset.buscape.utils.CalculateCommandsUtils;
 public class App {
 	
 	public static void main(String[] args) {
-		args = new String[1];
-		args[0] = "RMMLMMMDDLL";
 		if (args.length < 1 || args[0] == null) {
 			printUsage();
 			return;
 		}else{
-			System.out.println("initial ==> [0,0,0,NORTH]");
+			System.out.println("== Commands ==\n["+args[0]+"]\n");
+			System.out.println("== Initial Position ==\n[0,0,0,NORTH]\n");
 			char[] commands = args[0].toCharArray();
-//			System.out.println("COMMANDS["+commands+"]");
-			System.out.println(execute(commands));
+			System.out.println("== Final Position ==\n"+execute(commands));
 		}
-		
 	}
 	
 	private static SubmarineEntity execute(char[] commands){
